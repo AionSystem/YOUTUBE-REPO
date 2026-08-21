@@ -1,0 +1,66 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment Files (NEVER commit real credentials)
+.env
+.env.local
+.env.*.local
+
+# Sensitive Files
+*.key
+*.secret
+*.pem
+credentials.json
+
+# Large Media Files (add actual patterns as needed)
+# *.mp4
+# *.mov
+# *.avi
+# Raw footage should be stored but not committed if too large
+raw_footage/*.mp4
+exports/*.mp4
+
+# Build/Output directories
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+env/
+
+# Node.js (if used for scripts)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# CapCut/OBS project files (optional - decide if these should be tracked)
+# Uncomment if you don't want to track large project files
+# *.capcut
+# *.obsproject
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Backup files
+*.bak
+*.backup
