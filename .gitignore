@@ -8,50 +8,24 @@
 .env.local
 *.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/
-.mypy_cache/
-.pytest_cache/
-.hypothesis/
-
-# Build and distribution artifacts
-dist/
-build/
-*.egg
-*.egg-info/
-*.so
-.libs/
-.deps/
+*.swp
+*.swo
 
 # OS generated files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
-Icon?
+
+# Build artifacts (if any get created)
+dist/
+build/
+target/
+
+# Dependencies (if any get created)
+node_modules/
+.venv/
+venv/
+__pycache__/
 ```
